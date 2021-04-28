@@ -97,7 +97,6 @@ let generateAxes = () => {
 request.open("GET", url, true);
 request.onload = () => {
   values = JSON.parse(request.responseText);
-  console.log(values);
   drawCanvas();
   generateScales();
   drawPoints();

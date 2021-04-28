@@ -31,3 +31,8 @@ text {
 .dot:hover {
   opacity: .8;
 }
+@media screen and (max-width:1000px) {
+  body {
+  width: max-content;
+  }
+}
